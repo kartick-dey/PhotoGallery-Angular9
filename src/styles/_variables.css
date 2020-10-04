@@ -1,0 +1,6 @@
+::ng-deep :root {
+    --font-family: 'Roboto', sans-serif;
+    --content-background: white;
+    --button-color: #c21616;
+    --button-hover: #c21616ab;
+}

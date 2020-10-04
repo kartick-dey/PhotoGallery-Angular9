@@ -1,3 +1,6 @@
+/*--------------------------------*/
+/* BASIC SETUP */
+/* ------------------------------ */
 * {
     margin: 0;
     padding: 0;
@@ -6,4 +9,52 @@
 p {
     margin: 0;
     color: azure;
+}
+
+.header-div {
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+}
+
+/*--------------------------------*/
+/* LOGO STYLE */
+/* ------------------------------ */
+
+.logo {
+    height: 70px;
+    width: 120px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding-top: 8px 0px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #c21616;
+    color: #c21616;
+    
 }
